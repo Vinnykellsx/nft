@@ -32,14 +32,14 @@ body {
   line-height: 17.5px;
 }
 
-.info{
+.info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.price-icon{
-height: 12.5px;
+.price-icon {
+  height: 12.5px;
 }
 
 .price-digit {
@@ -50,12 +50,12 @@ height: 12.5px;
   margin-left: 5px;
 }
 
-.time-icon{
-height: 12.5px;
-margin-right: 5px;
+.time-icon {
+  height: 12.5px;
+  margin-right: 5px;
 }
 
-.time{
+.time {
   color: hsl(215, 51%, 70%);
   font-size: 0.7rem;
   font-weight: 600;
@@ -84,9 +84,19 @@ margin-right: 5px;
 .note {
   margin-left: 10px;
   font-size: 12.5px;
-  color: hsl(215, 51%, 70%)
+  color: hsl(215, 51%, 70%);
 }
 
-.name{
+.name {
   color: whitesmoke;
+}
+
+@media (max-width: 450px) {
+  .container{
+    max-width: 350px;
+  }
+
+  .nft-image{
+    width: 100px;
+  }
 }
