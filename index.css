@@ -92,11 +92,12 @@ body {
 }
 
 @media (max-width: 450px) {
-  .container{
-    max-width: 350px;
+  .container {
+    max-width: 300px;
+    padding: 22.5px;
   }
 
-  .nft-image{
-    width: 100px;
+  .nft-image {
+    width: 300px;
   }
 }
