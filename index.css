@@ -1,4 +1,92 @@
-body{
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  color: white;
   font-family: outfit;
-  background-color:  hsl(217, 54%, 11%)
+}
+
+.container {
+  max-width: 220px;
+  padding: 18px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+
+.nft-image {
+  width: 220px;
+  border-radius: 5px;
+}
+
+.equi {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: -2.5px;
+}
+
+.equi-text {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 17.5px;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-icon{
+height: 12.5px;
+}
+
+.price-digit {
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.time-icon{
+height: 12.5px;
+margin-right: 5px;
+}
+
+.time{
+  color: hsl(215, 51%, 70%);
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: #3a3a3c;
+  margin: 20px 0;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+}
+
+.icon-author {
+  height: 25px;
+  width: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.note {
+  margin-left: 10px;
+  font-size: 12.5px;
+  color: hsl(215, 51%, 70%)
+}
+
+.name{
+  color: whitesmoke;
 }
