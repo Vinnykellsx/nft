@@ -87,6 +87,10 @@ body {
   color: hsl(215, 51%, 70%);
 }
 
+.foot-link {
+  text-decoration: none;
+}
+
 .name {
   color: whitesmoke;
 }
@@ -103,16 +107,18 @@ body {
     border-radius: 10px;
   }
 
-  .equi{
-font-size: 22.5px;    
+  .equi {
+    font-size: 22.5px;
   }
 
-  .equi-text{
+  .equi-text {
     line-height: 22.5px;
     font-size: 1.1rem;
   }
 
-.price-digit, .time, .note {
-  font-size: 17px;
-}  
+  .price-digit,
+  .time,
+  .note {
+    font-size: 17px;
+  }
 }
