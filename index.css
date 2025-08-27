@@ -94,10 +94,25 @@ body {
 @media (max-width: 450px) {
   .container {
     max-width: 300px;
-    padding: 22.5px;
+    padding: 25px;
+    border-radius: 15px;
   }
 
   .nft-image {
     width: 300px;
+    border-radius: 10px;
   }
+
+  .equi{
+font-size: 22.5px;    
+  }
+
+  .equi-text{
+    line-height: 22.5px;
+    font-size: 1.1rem;
+  }
+
+.price-digit, .time, .note {
+  font-size: 17px;
+}  
 }
